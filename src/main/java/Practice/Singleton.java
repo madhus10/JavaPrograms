@@ -2,7 +2,7 @@ package Practice;
 
 public class Singleton {
 
-	public String str1;
+	public String str;
 	private static Singleton singleton_instance = null;
 
 	private Singleton() {
