@@ -16,7 +16,7 @@ public class PageTestClass {
 		driver = instanceDriver.openBrowser();
 	}
 
-	@Test
+	@Test(priority=1)
 	public void DriverInit() {
 		driver.get("https://www.google.com");
 		System.out.println(driver.getTitle());
